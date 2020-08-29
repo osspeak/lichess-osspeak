@@ -1,0 +1,4 @@
+on_activate() => setState(is_awake, true())
+
+wake up = setState(is_awake, true())
+go to sleep = setState(is_awake, false())
