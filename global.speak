@@ -1,0 +1,12 @@
+is_active() => state.is_awake == true()
+
+digit := (0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9)
+letter := (alpha=a | bravo=b | charlie=c | danger=d | eureka=e | foxtrot=f | gorilla=g | hotel=h | india=i | juliet=j | kilo=k | lima=l | michael=m | november=n | oscar=o | peter=p | quiet=q | romeo=r | sierra=s | tango=t | uniform=u | victor=v | whiskey=w | xray=x | yankee=y | zulu=z)
+
+window_location := ([mozilla] firefox) = 'C:\\Program Files\\Mozilla Firefox\\firefox.exe' | ([google] chrome)='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe'
+window := firefox=mozilla firefox | chrome=chrome
+open <window> [<digit>] = window.focus($1, $2)
+start <window_location> = process.run($1)
+close window = {alt f4}
+maximize window = {win up}
+minimize window [2] = {win down}~$1
