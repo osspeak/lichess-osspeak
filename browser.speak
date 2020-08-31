@@ -1,0 +1,3 @@
+is_active() => window.test('mozilla firefox') || window.test('google chrome')
+
+go to lee chess = {ctrl l} 'lichess.org' {enter}
