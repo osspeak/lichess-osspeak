@@ -10,7 +10,7 @@
 
 After completing setup step two, Lichess will add an input form to games that reads SAN (Nc3) or UCI (b1c3) and automatically makes the move in the game. lichess-osspeak functions by translating speech into keypresses. Notation for captures, checks, checkmates, and '=' for promotion are ignored. The text is treated as case-insensitive. ![move input](images/move-input.png)
 
-Note that lichess does not autofocus this field when a new game starts. Use one of the extensions in setup step 3 to do this in a hands-free way.
+Note that Lichess does not autofocus this field when a new game starts. Use one of the extensions in setup step 3 to do this in a hands-free way.
 
 ### Sample Commands
 * `eureka four` -- pawn to e4
@@ -45,7 +45,7 @@ Note that lichess does not autofocus this field when a new game starts. Use one 
 * `castle kingside` - o-o {enter} (enter is required to prevent automove when trying to castle queenside)
 * `castle queenside` - o-o-o
 * `reset` - Clear input form, useful when changing your mind before a move is fully entered
-* `enter` - Press enter, this is how lichess focuses the input form once the page has focus
+* `enter` - Press enter, this is how Lichess focuses the input form once the page has focus
 * `escape` - Press escape, this unfocuses the input form
 
 #### Letters (can be used in game but primarily for hands-free browsing)
