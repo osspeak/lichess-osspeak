@@ -8,18 +8,18 @@
 
 ## Usage
 
-After completing setup step two, Lichess will add an input form to games that reads SAN (Nc3) or UCI (b1c3) and automatically makes the move in the game. lichess-osspeak functions by translating speech into keypresses. Notation for captures, checks, checkmates, and '=' for promotion are ignored. The text is treated as case-insensitive. ![move input](images/move-input.png)
+After completing setup step two, Lichess will add an input form to games that reads SAN (Nc3) or UCI (b1c3) and automatically makes the move in the game. lichess-osspeak functions by translating speech into letters, numbers, and other keypresses. Notation for captures, checks, checkmates, and '=' for promotion are ignored. The text is treated as case-insensitive. ![move input](images/move-input.png)
 
 Note that Lichess does not autofocus this field when a new game starts. Use one of the extensions in setup step 3 to do this in a hands-free way.
 
 ### Sample Commands
-* `eureka four` -- pawn to e4
-* `eureka four danger five` -- e4 pawn captures on d5
-* `queen foxtrot seven` -- queen to f7
-* `knight bravo danger seven` -- knight on the b file to d7 when there is an ambiguity. Equivalent to Nbd7.
-* `rook one charlie six` -- rook on the first rank to c6 when there is an ambiguity. Equivalent to R1c6.
-* `queen gorilla four hotel five` -- queen on the g4 square to h5 when there is an ambiguity. Equivalent to Qg4h5.
-* `alpha eight queen` -- pawn to a8 and promote to a queen
+* `eureka four` - pawn to e4
+* `eureka four danger five` - e4 pawn captures on d5
+* `queen foxtrot seven` - queen to f7
+* `knight bravo danger seven` - knight on the b file to d7 when there is an ambiguity. Equivalent to Nbd7.
+* `rook one charlie six` - rook on the first rank to c6 when there is an ambiguity. Equivalent to R1c6.
+* `queen gorilla four hotel five` - queen on the g4 square to h5 when there is an ambiguity. Equivalent to Qg4h5.
+* `alpha eight queen` - pawn to a8 and promote to a queen
 
 ### All Commands
 
