@@ -1,3 +1,8 @@
 is_active() => window.test('mozilla firefox') || window.test('google chrome')
 
 go to lee chess = {ctrl l} 'lichess.org' {enter}
+go back = {alt left}
+go forward = {alt right}
+refresh page = {f5}
+go to top = {home}
+go to bottom = {end}

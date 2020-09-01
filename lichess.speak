@@ -6,6 +6,8 @@ piece := knight=n | bishop=b | queen=q | king=k | rook=r
 reset = {ctrl a} {back}
 enter = {enter}
 click = mouse.click()
+<letter> <digit> = $1 + $2
+<piece> <letter> <digit> = $1 + $2 + $3
 <digit> = $1
 <letter> = $1
 <piece> = $1

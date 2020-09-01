@@ -75,3 +75,16 @@ Note that Lichess does not autofocus this field when a new game starts. Use one 
 * `xray` - x
 * `yankee` - y
 * `zulu` - z
+
+#### Other commands
+
+* `start firefox` - Start Firefox
+* `start chrome` - Start Chrome
+* `open firefox` - Focuses Firefox
+* `open chrome` - Focuses Chrome
+* `go to lichess` - When a browser is open, navigates to lichess.org
+* `go back` - Navigates to the previous page
+* `go forward` - Navigates to the next page
+* `go to top` - Scrolls to the top of the page
+* `go to bottom` - Scrolls to the bottom of the page
+* `Refresh page` - Reloads the current web page
