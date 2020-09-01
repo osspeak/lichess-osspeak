@@ -30,7 +30,7 @@ Note that Lichess does not autofocus this field when a new game starts. Use one 
 * `queen` - q
 * `rook` - r
 
-#### Numbers
+#### Numbers (used primarily to specify algebraic notation ranks)
 * `one` - 1
 * `two` - 2
 * `three` - 3
@@ -48,7 +48,7 @@ Note that Lichess does not autofocus this field when a new game starts. Use one 
 * `enter` - Press enter, this is how Lichess focuses the input form once the page has focus
 * `escape` - Press escape, this unfocuses the input form
 
-#### Letters (a through h are used to specify files, letters after h are primarily for hands-free browsing)
+#### Letters (a through h are used to specify algebraic notation chess files, letters after h are primarily for hands-free browsing)
 * `alpha` - a
 * `bravo` - b
 * `charlie` - c
