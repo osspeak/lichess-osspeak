@@ -8,7 +8,7 @@
 
 ## Usage
 
-After completing setup step two, Lichess will add an input form to games that reads SAN (Nc3) or UCI (b1c3) and automatically makes the move in the game. lichess-osspeak functions by translating speech into letters, numbers, and other keypresses. Notation for captures, checks, checkmates, and '=' for promotion are ignored. The text is treated as case-insensitive. ![move input](images/move-input.png)
+After completing setup step two, Lichess will add an input form to games that reads SAN (Nc3) or UCI (b1c3) and automatically makes the move in the game. lichess-osspeak functions by translating spoken commands (see below) into letters, numbers, and other keypresses. Notation for captures, checks, checkmates, and '=' for promotion are ignored. The text is treated as case-insensitive. ![move input](images/move-input.png)
 
 Note that Lichess does not autofocus this field when a new game starts. Use one of the extensions in setup step 3 to do this in a hands-free way.
 
@@ -48,7 +48,7 @@ Note that Lichess does not autofocus this field when a new game starts. Use one 
 * `enter` - Press enter, this is how Lichess focuses the input form once the page has focus
 * `escape` - Press escape, this unfocuses the input form
 
-#### Letters (can be used in game but primarily for hands-free browsing)
+#### Letters (a through h are used to specify files, letters after h are primarily for hands-free browsing)
 * `alpha` - a
 * `bravo` - b
 * `charlie` - c
