@@ -4,11 +4,11 @@
 1. lichess-osspeak uses the built-in Windows Speech Recognition engine. Make sure that the engine is enabled and spend at least a couple of minutes [training it](https://www.youtube.com/watch?v=R1NEbT-vMTo) to recognize your voice.
 1. In the [Lichess game behavior menu](https://lichess.org/account/preferences/game-behavior), set the *Input moves with the keyboard* option to *Yes*. It is also recommended to turn off *Confirm resignation and draw offers*.
 1. A keyboard navigation browser extension is suggested if you would like to nagivate the Lichess site by voice, including agreeing to/proposing draws and resigning games. Two good options are [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) for Chrome and [Surfingkeys](https://addons.mozilla.org/en-US/firefox/addon/surfingkeys_ff/) for Firefox.
-1. Download the latest release of lichess-osspeak. Unzip the files and launch lichess-osspeak.exe.
+1. Download the [latest release](https://github.com/osspeak/lichess-osspeak/releases/latest) of lichess-osspeak. Unzip the files and launch lichess-osspeak.exe.
 
 ## Usage
 
-After completing setup step two, lichess will add an input form to games that reads SAN (Nc3) or UCI (b1c3) and automatically makes the move in the game. lichess-osspeak functions by translating speech into keypresses. Notation for captures, checks, checkmates, and '=' for promotion are ignored. The text is treated as case-insensitive. ![move input](images/move-input.png)
+After completing setup step two, Lichess will add an input form to games that reads SAN (Nc3) or UCI (b1c3) and automatically makes the move in the game. lichess-osspeak functions by translating speech into keypresses. Notation for captures, checks, checkmates, and '=' for promotion are ignored. The text is treated as case-insensitive. ![move input](images/move-input.png)
 
 Note that lichess does not autofocus this field when a new game starts. Use one of the extensions in setup step 3 to do this in a hands-free way.
 
