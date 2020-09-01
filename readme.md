@@ -2,8 +2,8 @@
 
 ## Setup
 1. lichess-osspeak uses the built-in Windows Speech Recognition engine. Make sure that the engine is enabled and spend at least a couple of minutes [training it](https://www.youtube.com/watch?v=R1NEbT-vMTo) to recognize your voice.
-1. In the [Lichess game behavior menu](https://lichess.org/account/preferences/game-behavior), set the *Input moves with the keyboard* option to *Yes*. 
-1. A keyboard navigation browser extension is suggested if you would like to nagivate the Lichess site by voice. Two good options are [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) for Chrome and [Surfingkeys](https://addons.mozilla.org/en-US/firefox/addon/surfingkeys_ff/) for Firefox.
+1. In the [Lichess game behavior menu](https://lichess.org/account/preferences/game-behavior), set the *Input moves with the keyboard* option to *Yes*. It is also recommended to turn off *Confirm resignation and draw offers*.
+1. A keyboard navigation browser extension is suggested if you would like to nagivate the Lichess site by voice, including agreeing to/proposing draws and resigning games. Two good options are [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) for Chrome and [Surfingkeys](https://addons.mozilla.org/en-US/firefox/addon/surfingkeys_ff/) for Firefox.
 1. Download the latest release of lichess-osspeak. Unzip the files and launch lichess-osspeak.exe.
 
 ## Usage
