@@ -1,4 +1,6 @@
+Play chess online using only your voice. Requires Windows 7/10.
 
+## [Demo](https://www.youtube.com/watch?v=qTiGi9coW5A)
 
 ## Setup
 1. lichess-osspeak uses the built-in Windows Speech Recognition engine. Make sure that the engine is enabled and spend at least a couple of minutes [training it](https://www.youtube.com/watch?v=R1NEbT-vMTo) to recognize your voice.
