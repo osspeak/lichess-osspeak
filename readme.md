@@ -80,6 +80,9 @@ Note that Lichess does not autofocus this field when a new game starts. Use one 
 
 #### Other commands
 
+
+* `go to sleep` - Disable all other commands except `wake up`
+* `wake up` - Enable all commands
 * `start firefox` - Start Firefox
 * `start chrome` - Start Chrome
 * `open firefox` - Focuses Firefox
