@@ -92,4 +92,4 @@ Note that Lichess does not autofocus this field when a new game starts. Use one 
 * `go forward` - Navigates to the next page
 * `go to top` - Scrolls to the top of the page
 * `go to bottom` - Scrolls to the bottom of the page
-* `Refresh page` - Reloads the current web page
+* `refresh page` - Reloads the current web page
