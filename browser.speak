@@ -1,4 +1,4 @@
-is_active() => window.test('mozilla firefox') || window.test('google chrome')
+is_active() => (window.test('mozilla firefox') || window.test('google chrome')) && state.is_awake
 
 go to lee chess = {ctrl l} 'lichess.org' {enter}
 go back = {alt left}
